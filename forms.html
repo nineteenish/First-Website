@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <header>
+            <h1>HTML Forms</h1>
+        </header>
+        
+        <nav class="aboutnav">
+            <ul>
+              <li><a class="mainweb" href="https://www.muemablain.wordpress.com">My_Main_Website</a></li>
+              <li><a href="about.html">About_Us</a></li>
+              <li><a href="cssbasics.html">CSS_Basics</a></li>
+              <li><a href="index2.html">CSS_Basics_2</a></li>
+              <li><a href="index3.html">What_We_Do</a></li>
+              <li><a href="index.html"><\Back Home</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="formsq">
+                <h3>Example Of HTML Forms</h3>
+                <hr>
+                <p>To learn more about HTML forms go to <a href="https://www.w3schools.com/html/html_form_input_types.asp">w3Schools.com</a></p>
+                
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quibusdam praesentium eveniet, tempora quod similique quos eius, pariatur dolorem officiis aperiam nulla. Obcaecati neque minima tempora autem unde, veniam itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, id itaque iusto ipsa magnam harum odio ea corrupti officiis quam odit quae velit sed quod cupiditate aspernatur cum vitae non! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam iste harum maxime aliquam commodi quis delectus quae? Nulla, tempore, suscipit neque quis labore illo eveniet voluptatem a saepe reprehenderit voluptas!</p>
+           
+                <br>
+                <h3>Fill In The Form & Submit</h3>
+                <hr>
+            </section>
+            
+            <form>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quibusdam magni, nesciunt alias saepe qui incidunt beatae, sint, magnam fugit recusandae placeat? Necessitatibus veniam aperiam repellendus magnam, sequi tempora quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quas! Esse unde quibusdam facere perspiciatis perferendis, dignissimos laboriosam quaerat, magnam odio, totam dicta debitis! Qui nesciunt et cumque dolorem cum!</p>
+                <label for="username">Enter username:</label>
+                <input type="text" id="username" placeholder="Choose your username" required>
+                <br><br>
+                <label for="email">Enter email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="8-figure password" required>
+    
+                <p>Select your age:</p>
+                <input type="radio" name="age" value="0-25" id="option-1">
+                <label for="option-1">0-25</label><br>
+                <input type="radio" name="age" value="26-50" id="option-2">
+                <label for="option-2">26-50</label><br>
+                <input type="radio" name="age" value="51+" id="option-3">
+                <label for="option-3">51+</label><br>
+    
+                <br>
+    
+                <label for="question">Security Question:</label>
+                <select name="question" id="question">
+                    <option value="q1">What city where you born in?</option>
+                    <option value="q2">What was your childhood nickname?</option>
+                    <option value="q3">Which Kanye album do you like?</option>
+                    <option value="q4">If you could be a vegetable, what could it be?</option>
+                    <option value="q5">Where does the sun go at night?</option>
+                </select>
+    
+                <br><br>
+    
+                <label for="answer">Security Answer:</label>
+                <input type="text" id="answer" name="answer">
+                
+                <br><br>
+    
+                <label for="bio">Write a short paragraph about yourself:</label><br>
+                <textarea name="bio" id="bio" cols="60" rows="10" placeholder="Not more than 300 words."></textarea>
+    
+                <br>
+
+                <section class="submitbutton">
+                    <h3>Terms & Conditions Statement</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nesciunt hic commodi? Qui ducimus, repudiandae quae fugiat reprehenderit culpa tempora beatae repellat voluptates libero blanditiis pariatur adipisci, corporis maxime expedita!</p>
+                    <input type="radio" name="option" value="Yes" id="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="option" value="No" id="no">
+                    <label for="no">No</label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit Form">
+                </section>
+            </form>
+        </main>
+
+        <footer><p class="Copyright">©2021 • BMM</p></footer>
+        
+    </body>
+</html>
