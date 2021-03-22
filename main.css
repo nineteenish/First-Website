@@ -1,0 +1,195 @@
+body, ul, li, h1, h2, a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightcyan;
+}
+header{
+    background-color: #5a7050; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.aboutnav .mainweb{
+    color: green;
+}
+nav{
+    background-color: #e5faef;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+nav li{
+    font-size: 18px;
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    color: #c55c2ce7;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h3{
+    color: red;
+}
+article p{
+    text-align: justify;
+    line-height: 2em;
+    color: #4b4b4b;
+}
+main article p::first-line{
+    font-weight: bold;
+}
+.fonts h3{
+    color: red;
+}
+.fonts p{
+    text-align: justify;
+    line-height: 2em;
+    color: #4b4b4b;
+}
+.fonts img{
+    max-width: 100%;
+}
+footer{
+    background-color: #e5faef;
+    padding: 8px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* forms.html */
+
+.formsq h3{
+    color: red;
+}
+form{
+    margin-left: 50px;
+}
+section input{
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+}
+section input:hover{
+    color: #0ace0a;
+}
+.submitbutton{
+    text-align: center;
+}
+.submitbutton h3{
+    color: orangered;
+}
+
+/* cssbasics.html */
+
+article .graph{
+    color: slategray;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    column-count: 3;
+    column-gap: 20px;
+} 
+.css h3{
+    color: red;
+}
+.css ul{
+    margin: 20px;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: crimson; */
+    /* border: 4px solid crimson; */
+    border-bottom: 4px dotted crimson;
+    border-left: 4px dotted orange;
+}  
+.css li{
+    list-style-type: none;
+    text-shadow: 2px 2px lightsalmon;
+}
+
+/* index2.html */
+.elements h3{
+    color: red;
+}
+.elements span{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+.block .block3{
+    color: red;
+}
+.block div{
+    /* display: inline; */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
+.block ul{
+    margin: 30px;
+}
+
+/* index3.html */
+.mns h3{
+    color: red;
+}
+.content h3{
+    color: red
+}
+p.error{
+    color: crimson;
+}
+p.success{
+    color: #0cc00c;
+}
+.content .fdbk{
+    border: 2px dashed #e7ca27;
+}
+div#content{
+    background-color: palegoldenrod;
+    padding: 20px;
+}
+p.ghj{
+    color: purple;
+}
+div .error{
+    color: #c5146d;
+}
+a[href="https://www.thenetninja.co.uk"]{
+    background-color: royalblue;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.ref h3{
+    color: red;
+}
+.ref a{
+    white-space: nowrap;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px ;
+}
